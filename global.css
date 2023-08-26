@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-kaisei-decol: "Kaisei Decol";
+
+  /* font sizes */
+  --font-size-8xl: 27px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --bottom-panel: #00539c;
+  --foot-box: #eea47f;
+  --news-title-box: #990011;
+  --news-box: #fcf6f5;
+  --color-black: #000;
+  --aqua: rgba(38, 182, 244, 0.4);
+  --safron: rgba(249, 147, 26, 0.63);
+
+  /* border radiuses */
+  --br-31xl: 50px;
+  --br-81xl: 100px;
+}
