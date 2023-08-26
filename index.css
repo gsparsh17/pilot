@@ -1,84 +1,75 @@
+.desktop-1-child,
 .stock-back-1 {
   position: absolute;
-  top: 6px;
   left: 0;
+  width: 1440px;
+}
+.desktop-1-child {
+  top: 1161px;
+  background-color: #8dfd7a;
+  height: 95px;
+}
+.stock-back-1 {
+  top: 0;
   border-radius: 0 0 400px 0;
-  width: 1933px;
-  height: 635px;
+  height: 487px;
   object-fit: cover;
 }
 .pilot {
   position: absolute;
-  top: 353px;
-  left: 1200px;
+  top: 136px;
+  left: 774px;
   font-size: 150px;
   color: var(--color-white);
   display: inline-block;
   width: 560px;
   height: 178px;
 }
-.desktop-1-child {
+.desktop-1-item {
   position: absolute;
-  top: 726px;
-  left: 26.01px;
+  top: 507px;
+  left: 40.3px;
   border-radius: 200px;
-  width: 1848px;
-  height: 497px;
+  width: 1359px;
+  height: 70px;
 }
 .home,
 .market-news,
 .my-portfolio,
-.trend,
-.we-make-you {
+.my-watchlist,
+.trend {
   position: absolute;
-  top: 1156px;
-  left: 488px;
+  top: 1185px;
+  left: 347px;
   display: inline-block;
   width: 231px;
   height: 71px;
 }
 .home,
 .market-news,
-.trend,
-.we-make-you {
-  top: 1154px;
-  left: 224px;
+.my-watchlist,
+.trend {
+  top: 1187px;
+  left: 149px;
   width: 188px;
 }
 .market-news,
-.trend,
-.we-make-you {
-  top: 1157px;
-  left: 1470px;
+.my-watchlist,
+.trend {
+  top: 1186px;
+  left: 1053px;
   width: 213px;
 }
-.trend,
-.we-make-you {
-  top: 1152px;
-  left: 1200px;
+.my-watchlist,
+.trend {
+  top: 1187px;
+  left: 856px;
   width: 188px;
 }
-.we-make-you {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-.we-make-you-an-investment-tyco {
-  position: absolute;
-  top: 813px;
-  left: 215px;
-  width: 1464px;
-  height: 254px;
-  font-size: 90px;
-}
 .my-watchlist {
-  position: absolute;
-  top: 1156px;
-  left: 860px;
-  display: inline-block;
+  top: 1185px;
+  left: 647px;
   width: 207px;
-  height: 71px;
 }
 .nifty-1-icon,
 .stcok-1-icon {
@@ -86,22 +77,22 @@
   object-fit: cover;
 }
 .stcok-1-icon {
-  top: 1252px;
+  top: 1247px;
   left: 0;
-  width: 1950px;
+  width: 1920px;
   height: 180px;
   mix-blend-mode: luminosity;
 }
 .nifty-1-icon {
-  top: 1621px;
-  left: 52px;
-  width: 1034px;
-  height: 696px;
+  top: 1674px;
+  left: 23px;
+  width: 844px;
+  height: 575px;
 }
-.desktop-1-item {
+.desktop-1-inner {
   position: absolute;
-  top: 1483px;
-  left: 322px;
+  top: 1472px;
+  left: 444px;
   border-radius: var(--br-31xl);
   background-color: var(--safron);
   width: 551px;
@@ -109,184 +100,253 @@
 }
 .todays-nifty-trend {
   position: absolute;
-  top: 1504px;
-  left: 385px;
+  top: 1502px;
+  left: 509px;
   font-size: 40px;
   color: #150097;
   display: inline-block;
   width: 422px;
   height: 79px;
 }
-.desktop-1-inner {
+.rectangle-div {
   position: absolute;
-  top: 1621px;
-  left: 1140px;
+  top: 1639px;
+  left: 936px;
   background-color: var(--safron);
-  width: 624px;
-  height: 71px;
+  width: 431px;
+  height: 49px;
 }
 .best-seller {
   position: absolute;
-  top: 1633px;
-  left: 1167px;
+  top: 1639px;
+  left: 952px;
   text-align: left;
   display: inline-block;
   width: 264px;
   height: 47px;
 }
-.rectangle-div {
+.desktop-1-child1,
+.desktop-1-child2 {
   position: absolute;
-  top: 1692px;
-  left: 1140px;
+  top: 1688px;
+  left: 931px;
   background-color: var(--aqua);
-  width: 624px;
-  height: 254px;
+  width: 442px;
+  height: 219px;
 }
-.desktop-1-child1 {
-  position: absolute;
-  top: 1971px;
-  left: 1134px;
+.desktop-1-child2 {
+  top: 1977px;
   background-color: var(--safron);
-  width: 630px;
-  height: 65px;
+  width: 441px;
+  height: 46px;
 }
 .most-trusted {
   position: absolute;
   top: 1971px;
-  left: 1140px;
+  left: 952px;
   text-align: left;
   display: inline-block;
   width: 277px;
   height: 47px;
 }
-.desktop-1-child2 {
-  position: absolute;
-  top: 2036px;
-  left: 1134px;
-  background-color: var(--aqua);
-  width: 630px;
-  height: 281px;
-}
 .desktop-1-child3 {
   position: absolute;
-  top: 2429px;
-  left: 130px;
+  top: 2018px;
+  left: 931px;
+  background-color: var(--aqua);
+  width: 434px;
+  height: 231px;
+}
+.desktop-1-child4 {
+  position: absolute;
+  top: 2411px;
+  left: 45px;
   background-color: #f9e795;
-  width: 1660px;
+  width: 1328px;
   height: 105px;
 }
 .trending-news {
   position: absolute;
-  top: 2443px;
-  left: 634px;
-  font-size: 50px;
+  top: 2417px;
+  left: 386px;
+  font-size: var(--font-size-31xl);
   display: inline-block;
   width: 645px;
   height: 75px;
 }
-.desktop-1-child4,
 .desktop-1-child5,
-.desktop-1-child6,
-.desktop-1-child7 {
+.desktop-1-child6 {
   position: absolute;
-  top: 2569px;
-  left: 130px;
+  top: 2571px;
+  left: 75px;
   background-color: var(--news-box);
-  width: 367px;
-  height: 539px;
+  width: 272px;
+  height: 378px;
 }
-.desktop-1-child5,
-.desktop-1-child6,
-.desktop-1-child7 {
-  left: 1386px;
-  width: 370px;
-}
-.desktop-1-child6,
-.desktop-1-child7 {
-  left: 967px;
-  width: 378px;
-}
-.desktop-1-child7 {
-  left: 541px;
-  width: 370px;
-}
-.desktop-1-child10,
-.desktop-1-child11,
-.desktop-1-child8,
-.desktop-1-child9 {
-  position: absolute;
-  top: 2886px;
-  left: 130px;
+.desktop-1-child6 {
+  top: 2796px;
   background-color: var(--news-title-box);
-  width: 367px;
-  height: 222px;
+  width: 270px;
+  height: 153px;
 }
-.desktop-1-child10,
-.desktop-1-child11,
-.desktop-1-child9 {
-  left: 541px;
-  width: 386px;
-}
-.desktop-1-child10,
-.desktop-1-child11 {
-  left: 967px;
-  width: 378px;
-}
-.desktop-1-child11 {
-  left: 1386px;
-  width: 370px;
-}
-.desktop-1-child12 {
+.desktop-1-child7 {
   position: absolute;
   top: 3271px;
   left: 0;
   border-radius: var(--br-81xl) var(--br-81xl) 0 0;
   background-color: var(--foot-box);
-  width: 1920px;
+  width: 1431px;
   height: 106px;
 }
-.desktop-1-child13,
-.desktop-1-child14,
-.desktop-1-child15 {
+.desktop-1-child10,
+.desktop-1-child8,
+.desktop-1-child9 {
   position: absolute;
-  top: 3291px;
+  top: 3304px;
   left: 127px;
   border-radius: var(--br-31xl);
   background-color: var(--bottom-panel);
-  width: 395px;
-  height: 65px;
+  width: 348px;
+  height: 52px;
 }
-.desktop-1-child14,
-.desktop-1-child15 {
-  left: 1361px;
+.desktop-1-child10,
+.desktop-1-child9 {
+  left: 928px;
 }
-.desktop-1-child15 {
-  left: 733px;
+.desktop-1-child10 {
+  left: 534px;
 }
-.click-to-download,
 .contact,
+.download-app,
 .join-community {
   position: absolute;
-  top: 3301px;
-  left: 159px;
+  top: 3312px;
+  left: 155px;
   font-size: var(--font-size-8xl);
   color: var(--color-white);
   display: inline-block;
-  width: 338px;
-  height: 43px;
+  width: 298px;
+  height: 34px;
 }
 .contact,
 .join-community {
-  top: 3299px;
-  left: 767px;
-  width: 334px;
-  height: 45px;
+  top: 3310px;
+  left: 563px;
+  width: 295px;
+  height: 36px;
 }
 .join-community {
-  top: 3304px;
-  left: 1401px;
-  width: 323px;
-  height: 40px;
+  top: 3311px;
+  left: 970px;
+  width: 285px;
+  height: 32px;
+}
+.desktop-1-child11,
+.desktop-1-child12 {
+  position: absolute;
+  top: 2571px;
+  left: 402px;
+  background-color: var(--news-box);
+  width: 272px;
+  height: 378px;
+}
+.desktop-1-child12 {
+  top: 2796px;
+  background-color: var(--news-title-box);
+  width: 270px;
+  height: 153px;
+}
+.desktop-1-child13,
+.desktop-1-child14 {
+  position: absolute;
+  top: 2571px;
+  left: 720px;
+  background-color: var(--news-box);
+  width: 272px;
+  height: 378px;
+}
+.desktop-1-child14 {
+  top: 2796px;
+  background-color: var(--news-title-box);
+  width: 270px;
+  height: 153px;
+}
+.desktop-1-child15,
+.desktop-1-child16 {
+  position: absolute;
+  top: 2571px;
+  left: 1038px;
+  background-color: var(--news-box);
+  width: 272px;
+  height: 378px;
+}
+.desktop-1-child16 {
+  top: 2796px;
+  background-color: var(--news-title-box);
+  width: 270px;
+  height: 153px;
+}
+.we-make-you {
+  position: absolute;
+  top: 507px;
+  left: 149px;
+  font-size: var(--font-size-31xl);
+  display: inline-block;
+  width: 1136px;
+  height: 194px;
+}
+.desktop-1-child17,
+.nse-1-icon {
+  position: absolute;
+  left: 57px;
+  width: 1330px;
+}
+.nse-1-icon {
+  top: 604px;
+  height: 535px;
+  object-fit: cover;
+}
+.desktop-1-child17 {
+  top: 949px;
+  background-color: rgba(18, 17, 17, 0.63);
+  height: 181px;
+}
+.nse-is-an {
+  position: absolute;
+  top: 983px;
+  left: 108px;
+  font-size: 30px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 1223px;
+  height: 98px;
+}
+.ellipse-div {
+  position: absolute;
+  top: 1093px;
+  left: 621px;
+  border-radius: 50%;
+  background-color: #fff8f8;
+  width: 20px;
+  height: 20px;
+}
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20 {
+  position: absolute;
+  top: 1096px;
+  left: 662px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 13px;
+  height: 13px;
+}
+.desktop-1-child19,
+.desktop-1-child20 {
+  left: 695px;
+}
+.desktop-1-child20 {
+  left: 729px;
 }
 .desktop-1 {
   position: relative;

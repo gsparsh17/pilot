@@ -1,0 +1,6 @@
+.rectangle-div1 {
+  position: relative;
+  background-color: var(--safron);
+  width: 100%;
+  height: 32px;
+}
