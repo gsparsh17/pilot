@@ -8,14 +8,14 @@ body {
   --font-kaisei-decol: "Kaisei Decol";
 
   /* font sizes */
-  --font-size-31xl: 50px;
+  --font-size-11xl: 30px;
   --font-size-8xl: 27px;
   --font-size-13xl: 32px;
 
   /* Colors */
+  --color-black: #000;
   --color-white: #fff;
   --news-box: #fcf6f5;
-  --color-black: #000;
   --news-title-box: #990011;
   --bottom-panel: #00539c;
   --foot-box: #eea47f;
@@ -24,6 +24,7 @@ body {
   --blue-color: #6a39f8;
 
   /* border radiuses */
+  --br-181xl: 200px;
   --br-31xl: 50px;
   --br-81xl: 100px;
 }

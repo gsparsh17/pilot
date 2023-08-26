@@ -1,118 +1,50 @@
-
-    .in:hover 
-    {
-       color: blueviolet;
-       font-size: 19px;
-    }
-    .hr{
-        width: 80%;
-        /* color: black; */
-        padding: 0%;
-        margin: 0%;
-        border: 1px solid gray;
-        position: relative;
-        left: 20px;
-    }
-.log{
-        background-color: aliceblue;
-        color: darkgray;
-        width: 80px;
-        height: 40px;
-        display: flex;
-        flex-direction: row;
-        padding: 5px;
-        position: fixed;
-        top: 5px;
-        right: 2px;
-        margin: 0px;
-        border: 1px black solid;
-        border-radius: 7px;
-        box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5);
-        z-index:+2;
-    }
-    .login
-    {
-        width: 25px;
-        height: 25px;
-        display: inline-block;
-        margin: 3px;
-        margin-right: 6px;
-    }
-    .drop{
-        display: none;
-        flex-direction: column;
-        margin: 0px;
-        list-style: none;
-        position: absolute;
-        right: -15px;
-        top: 40px;
-        padding: 0px;
-        z-index: +1;
-        border-radius: 20px;
-        text-decoration: none;
-        border: 2px solid black;
-        box-shadow: 4px 4px 8px 4px rgb(0.5,0.5,0,0.5);
-        background-color: aliceblue;
-    }
-    .in{
-        font-family:cursive;
-        color: black;
-        /* background-color: aliceblue; */
-        width: 200px;
-        padding-right: 5px;  
-        padding-left: 5px;     
-        padding-top: 20px;
-        padding-bottom: 12px;
-        text-align: center;
-        /* position: relative; */
-        /* left: -160px; */
-        /* border-radius: 19px; */
-        font-size: 17px;
-         /* border-bottom: 0.5px solid gray; */
-        /* border-style:var(); */
-        /* border-left: 0.5px solid black; */
-        text-decoration: none;
-        /* top: 35px; */
-        /* height: 60px; */
-        
-    }
-    div div:hover div{
-        display: flex;
-    }
-.desktop-1-child,
-.stock-back-1 {
+.stcok-1-icon {
   position: absolute;
+  top: 1151px;
   left: 0;
-  width: 1440px;
+  width: 2234px;
+  height: 303px;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
 }
 .desktop-1-child {
-  top: 1161px;
+  position: absolute;
+  top: 1197px;
+  left: 0;
   background-color: #8dfd7a;
-  height: 95px;
+  width: 1450px;
+  height: 61px;
 }
 .stock-back-1 {
+  position: absolute;
   top: 0;
+  left: 0;
   border-radius: 0 0 400px 0;
-  height: 487px;
+  width: 1440px;
+  height: 169px;
   object-fit: cover;
+  mix-blend-mode: hard-light;
 }
 .pilot {
   position: absolute;
-  top: 136px;
-  left: 774px;
-  font-size: 150px;
+  top: -12.75px;
+  left: 815px;
+  font-size: 120px;
   color: var(--color-white);
   display: inline-block;
-  width: 560px;
-  height: 178px;
+  width: 495.32px;
+  height: 168.85px;
+  text-shadow: 3px 3px 4px rgba(255, 255, 255, 0.94);
+  transform: rotate(-0.49deg);
+  transform-origin: 0 0;
 }
 .desktop-1-item {
   position: absolute;
-  top: 507px;
-  left: 40.3px;
-  border-radius: 200px;
-  width: 1359px;
-  height: 70px;
+  top: 455px;
+  left: 0;
+  border-radius: var(--br-181xl);
+  width: 994px;
+  height: 55px;
 }
 .home,
 .market-news,
@@ -120,7 +52,7 @@
 .my-watchlist,
 .trend {
   position: absolute;
-  top: 1185px;
+  top: 1197px;
   left: 347px;
   display: inline-block;
   width: 231px;
@@ -130,45 +62,35 @@
 .market-news,
 .my-watchlist,
 .trend {
-  top: 1187px;
+  top: 1199px;
   left: 149px;
   width: 188px;
 }
 .market-news,
 .my-watchlist,
 .trend {
-  top: 1186px;
+  top: 1198px;
   left: 1053px;
   width: 213px;
 }
 .my-watchlist,
 .trend {
-  top: 1187px;
+  top: 1199px;
   left: 856px;
   width: 188px;
 }
 .my-watchlist {
-  top: 1185px;
+  top: 1197px;
   left: 647px;
   width: 207px;
 }
-.nifty-1-icon,
-.stcok-1-icon {
-  position: absolute;
-  object-fit: cover;
-}
-.stcok-1-icon {
-  top: 1247px;
-  left: 0;
-  width: 1920px;
-  height: 180px;
-  mix-blend-mode: luminosity;
-}
 .nifty-1-icon {
+  position: absolute;
   top: 1674px;
   left: 23px;
   width: 844px;
   height: 575px;
+  object-fit: cover;
 }
 .desktop-1-inner {
   position: absolute;
@@ -250,7 +172,7 @@
   position: absolute;
   top: 2417px;
   left: 386px;
-  font-size: var(--font-size-31xl);
+  font-size: 50px;
   display: inline-block;
   width: 645px;
   height: 75px;
@@ -369,43 +291,47 @@
 }
 .we-make-you {
   position: absolute;
-  top: 507px;
-  left: 149px;
-  font-size: var(--font-size-31xl);
+  top: 455px;
+  left: -88px;
+  font-size: var(--font-size-11xl);
   display: inline-block;
   width: 1136px;
   height: 194px;
 }
-.desktop-1-child17,
 .nse-1-icon {
   position: absolute;
-  left: 57px;
-  width: 1330px;
-}
-.nse-1-icon {
-  top: 604px;
-  height: 535px;
+  top: 638px;
+  left: 104px;
+  width: 1257px;
+  height: 550px;
   object-fit: cover;
 }
 .desktop-1-child17 {
-  top: 949px;
-  background-color: rgba(18, 17, 17, 0.63);
-  height: 181px;
-}
-.nse-is-an {
   position: absolute;
-  top: 983px;
+  top: 1001px;
+  left: 115px;
+  background-color: rgba(18, 17, 17, 0.63);
+  width: 1227px;
+  height: 168px;
+}
+.nse-is {
+  margin: 0;
+}
+.nse-is-an-container {
+  position: absolute;
+  top: 1029px;
   left: 108px;
-  font-size: 30px;
+  font-size: 25px;
   color: var(--color-white);
+  white-space: pre-wrap;
   display: inline-block;
   width: 1223px;
   height: 98px;
 }
 .ellipse-div {
   position: absolute;
-  top: 1093px;
-  left: 621px;
+  top: 1117px;
+  left: 654px;
   border-radius: 50%;
   background-color: #fff8f8;
   width: 20px;
@@ -415,8 +341,8 @@
 .desktop-1-child19,
 .desktop-1-child20 {
   position: absolute;
-  top: 1096px;
-  left: 662px;
+  top: 1120px;
+  left: 763px;
   border-radius: 50%;
   background-color: var(--color-white);
   width: 13px;
@@ -428,6 +354,31 @@
 }
 .desktop-1-child20 {
   left: 729px;
+}
+.cartoon-character-businesspers-icon {
+  position: absolute;
+  top: 221px;
+  left: 1018px;
+  width: 191px;
+  height: 368px;
+  object-fit: cover;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 316px;
+  left: 0;
+  border-radius: var(--br-181xl);
+  width: 994px;
+  height: 55px;
+}
+.we-make-you1 {
+  position: absolute;
+  top: 316px;
+  left: -98px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 1136px;
+  height: 194px;
 }
 .desktop-1 {
   position: relative;

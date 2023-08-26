@@ -1,0 +1,10 @@
+.we-make-you3 {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-kaisei-decol);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 1136px;
+  height: 194px;
+}

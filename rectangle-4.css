@@ -1,6 +1,7 @@
-.rectangle-div1 {
+.rectangle-div3 {
   position: relative;
+  border-radius: var(--br-181xl);
   background-color: var(--aqua);
   width: 100%;
-  height: 32px;
+  height: 55px;
 }
